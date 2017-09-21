@@ -1,0 +1,41 @@
+.description{
+    background-color: #124feb;
+    position: relative;
+    width: 15%;
+    margin: 20em auto;
+    padding: .2em 0 .2em .2em;
+    text-align: center;
+    border-radius: 1em;
+}
+@media screen and (min-width: 0px) and (max-width: 640px){
+    .description{
+        background: #c2fd5c;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 50%;
+        font-size: 20px;
+        border-radius: 2em;
+    }
+    body{
+	height: 100px;
+        background: #7474BF;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #348AC7, #7474BF);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #348AC7, #7474BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-repeat: no-repeat;
+        background-attachment: fixed;        
+    }
+}
+@media screen and (min-width: 640px){
+    body {
+        font: 16px/26px Helvetica, Helvetica Neue, Arial;
+        margin: 0;
+        height: 100%;
+        background-color: #35abe2; /*top colour*/
+        background-image: -webkit-linear-gradient(top, #35abe2, #c2fd5c);
+        background-image:    -moz-linear-gradient(top, #35abe2, #c2fd5c);
+        background-image:      -o-linear-gradient(top, #35abe2, #c2fd5c);
+        background-image:         linear-gradient(to bottom, #35abe2, #c2fd5c);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+}
